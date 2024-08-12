@@ -1,0 +1,11 @@
+.screen-tabs {
+  display: flex;
+}
+.screen-tabs .screen-tab {
+  width: auto;
+  border-radius: 20px;
+  border: solid 1px rgba(128, 128, 128, 0.647);
+  background-color: #eceefc;
+  padding: 5px 10px;
+  margin-right: 10px;
+}

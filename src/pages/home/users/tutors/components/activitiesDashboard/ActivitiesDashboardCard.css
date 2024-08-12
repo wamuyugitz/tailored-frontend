@@ -1,0 +1,26 @@
+.activity-dashboard-card {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.activity-dashboard-card img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-position: top;
+  background-size: cover;
+}
+.activity-dashboard-card .activity-content {
+  margin-left: 10px;
+}
+
+.activity-dashboard-card .activity-content h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+.activity-dashboard-card .activity-content p {
+  font-size: 14px;
+  color: gray;
+  margin: 0;
+}

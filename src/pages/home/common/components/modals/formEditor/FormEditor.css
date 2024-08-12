@@ -1,0 +1,67 @@
+.form-editor {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+.form-editor .form-editor-header h2 {
+  font-weight: 700;
+  color: #1877f2;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.form-editor .form-editor-header .close-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: red;
+  border: solid 1px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.form-editor hr {
+  color: gray;
+}
+.form-editor .form-group {
+  margin-bottom: 2vh;
+}
+.form-editor .form-group textarea {
+  width: 100%;
+  min-height: 20vh;
+  border-radius: 10px;
+  padding: 10px;
+}
+.form-editor .form-group label {
+  font-size: 12px;
+}
+.form-editor .form-group input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #e3e3e3;
+  outline: none;
+  border: none;
+}
+.form-editor .form-editor-action-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4vh;
+}
+.form-editor .form-editor-action-btns button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.form-editor .form-editor-action-btns .cancel-btn {
+  background-color: #1877f2;
+  margin-right: 20px;
+}
+.form-editor .form-editor-action-btns .confirm-btn {
+  background-color: red;
+}

@@ -1,0 +1,23 @@
+.tutor-dashboard .tutor-dashboard-container {
+  padding-left: 2vw;
+  padding-right: 20px;
+  margin-top: 1vh;
+  height: 88vh;
+  display: flex;
+  justify-content: space-between !important;
+}
+.tutor-dashboard .tutor-dashboard-container .tutor-dashboard-main {
+  padding-right: 5vw;
+}
+.tutor-dashboard .tutor-dashboard-container .tutor-dashboard-main,
+.tutor-dashboard .tutor-dashboard-container .tutor-dashboard-side {
+  height: 88.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tutor-dashboard .tutor-dashboard-container .tutor-dashboard-side {
+  display: flex;
+  padding: 0 !important;
+}

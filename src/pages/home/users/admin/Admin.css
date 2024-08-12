@@ -1,0 +1,6 @@
+.admin {
+  display: flex;
+  flex-direction: row; /* Or column, depending on your layout */
+  height: 100vh; /* Ensure it takes up full viewport height */
+  position: relative;
+}

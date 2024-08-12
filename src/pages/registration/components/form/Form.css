@@ -1,0 +1,83 @@
+.form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.form h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1877f2;
+}
+.form .container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form .container form input {
+  background-color: #e3e3e3;
+  border: none;
+  outline: none;
+  width: 400px;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+.form .container form .form-group {
+  margin-bottom: 2vh;
+}
+.form .container form .submit-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.form .container form .submit-btn {
+  width: 200px;
+  background-color: #1877f2;
+  color: #fff;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.form .container form .text-with-lines {
+  position: relative;
+}
+
+.form .container form .text-with-lines::before,
+.form .container form .text-with-lines::after {
+  content: "";
+  display: inline-block;
+  width: 100px; /* Adjust width of the lines */
+  height: 1px; /* Height of the lines */
+  background-color: rgb(170, 170, 170); /* Color of the lines */
+  margin-bottom: 4px;
+}
+
+.form .container form .text-with-lines::before {
+  margin-right: 0.5em; /* Space between left line and text */
+}
+
+.form .container form .text-with-lines::after {
+  margin-left: 0.5em; /* Space between right line and text */
+}
+
+@media (max-width: 458px) {
+  .form .container form input {
+    width: 280px;
+  }
+}

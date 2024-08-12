@@ -1,0 +1,10 @@
+.home {
+  background-color: #eceefc;
+  height: 100vh;
+  overflow: scroll;
+}
+.home h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: gray;
+}

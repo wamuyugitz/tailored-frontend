@@ -1,0 +1,54 @@
+.courses-card {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 26vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.courses-card:hover {
+  box-shadow: 5px 10px 10px gray;
+  transform: translateY(-5%) scale(1.02);
+}
+
+.courses-card .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.courses-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses-card .card-footer .card-footer-left {
+  display: flex;
+  align-items: center;
+}
+.courses-card .card-footer .card-footer-left p {
+  margin: 0;
+  margin-left: 10px;
+}
+.courses-card .card-footer .card-footer-right .download-btn {
+  display: flex;
+  align-items: center;
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+.courses-card .card-footer .card-footer-right .download-btn.remove {
+  background-color: red;
+}
+.courses-card .card-footer .card-footer-right .download-btn p {
+  font-size: 10px;
+  margin: 0;
+  margin-left: 10px;
+}

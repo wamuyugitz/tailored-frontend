@@ -1,0 +1,29 @@
+.pupils {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-top: 2vh;
+}
+
+.pupils .pupil-table-header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2vh;
+  padding: 10px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: solid 1px rgba(128, 128, 128, 0.598);
+}
+
+@media (max-width: 992px) {
+  .pupil-content {
+    display: flex;
+    align-items: center;
+  }
+  .pupils .pupil-table-header {
+    width: 40vw !important;
+    height: 40vh;
+    margin-top: 0 !important;
+  }
+}

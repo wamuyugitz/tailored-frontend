@@ -1,0 +1,26 @@
+.screen {
+  width: 100vw;
+}
+.screen .screen-container {
+  padding-left: 2vw;
+  padding-right: 20px;
+  margin-top: 1vh;
+  height: 88vh;
+  display: flex;
+  justify-content: space-between !important;
+}
+.screen .screen-container .screen-main {
+  padding-right: 5vw;
+}
+.screen .screen-container .screen-main,
+.screen .screen-container .screen-side {
+  height: 88.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.screen .screen-container .screen-side {
+  display: flex;
+  padding: 0 !important;
+}

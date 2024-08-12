@@ -1,0 +1,23 @@
+.students-dashboard .students-dashboard-container {
+  padding-left: 2vw;
+  padding-right: 20px;
+  margin-top: 1vh;
+  height: 88vh;
+  display: flex;
+  justify-content: space-between !important;
+}
+.students-dashboard .students-dashboard-container .students-dashboard-main {
+  padding-right: 5vw;
+}
+.students-dashboard .students-dashboard-container .students-dashboard-main,
+.students-dashboard .students-dashboard-container .students-dashboard-side {
+  height: 88.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.students-dashboard .students-dashboard-container .students-dashboard-side {
+  display: flex;
+  padding: 0 !important;
+}

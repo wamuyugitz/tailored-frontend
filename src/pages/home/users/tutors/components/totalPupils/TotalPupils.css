@@ -1,0 +1,11 @@
+.total-pupils {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .total-pupils {
+    flex-direction: column;
+  }
+}

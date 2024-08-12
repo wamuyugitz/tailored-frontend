@@ -1,0 +1,27 @@
+.notification {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.notification .notification-header h2 {
+  font-weight: 700;
+  color: #1877f2;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.notification .notification-header .close-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: red;
+  border: solid 1px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.notification hr {
+  color: gray;
+}

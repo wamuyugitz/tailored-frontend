@@ -1,0 +1,93 @@
+.header {
+  background-color: #eceefc;
+  height: 10vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  right: 0;
+  padding-left: 10px;
+  padding-right: 2vw;
+  right: 0;
+  transition: 1s;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+.header .container .input-div {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  height: 40px;
+}
+.header .container .input-div .search-icon {
+  color: gray;
+}
+
+.header .container .input-div input {
+  width: 80%;
+  border-radius: 20px;
+  height: inherit;
+  outline: none;
+  border: none;
+}
+.header .container .header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 22vw;
+}
+.header .container .header-right .icon-div {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header .container .header-right .icon-div .icon {
+  font-size: 18px;
+}
+.header .container .header-right .profile-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header .container .header-right .profile-div .person-icon {
+  width: 60px;
+  height: 60px;
+  border: solid 3px white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.header .container .header-right .profile-div .person-icon .p-icon {
+  font-size: 34px;
+  color: rgba(0, 0, 0, 0.813);
+}
+.header .container .header-right .profile-div div {
+  margin-left: 10px;
+}
+.header .container .header-right .profile-div h4 {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 !important;
+  color: #000;
+}
+.header .container .header-right .profile-div h5 {
+  font-weight: 400;
+  font-size: 14px;
+  color: gray;
+  text-transform: capitalize;
+}

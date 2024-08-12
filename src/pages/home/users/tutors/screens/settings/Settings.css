@@ -1,0 +1,150 @@
+.settings {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.settings .settings-profile-edits {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 75vh;
+  margin-top: 2vh;
+}
+.settings .settings-profile-edits .profile-settings {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.settings .settings-profile-edits .profile-settings img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.settings .settings-profile-edits .profile-settings .course-status {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.settings .settings-profile-edits .profile-settings .course-status > div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.settings .settings-profile-edits .profile-settings .course-status > div p {
+  font-weight: 600;
+  font-size: 16px;
+  color: gray;
+}
+.settings
+  .settings-profile-edits
+  .profile-settings
+  .course-status
+  > div
+  .count {
+  width: 80px;
+  height: 80px;
+  color: white;
+  border-radius: 50%;
+  background-color: #bad6fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.settings
+  .settings-profile-edits
+  .profile-settings
+  .course-status
+  > div
+  .count
+  h3 {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0;
+}
+.settings .settings-profile-edits .settings-edit {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 43vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.settings .settings-profile-edits .settings-edit img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.settings .settings-profile-edits .settings-edit form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.settings .settings-profile-edits .settings-edit form .image-update {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.settings .settings-profile-edits .settings-edit .form-row {
+  width: 100%;
+  margin-top: 1vh;
+}
+.settings .settings-profile-edits .settings-edit .form-group {
+  margin-bottom: 2vh;
+}
+.settings .settings-profile-edits .settings-edit .form-group textarea {
+  width: 100%;
+  min-height: 20vh;
+  border-radius: 10px;
+  padding: 10px;
+}
+.settings .settings-profile-edits .settings-edit .form-group label {
+  font-size: 12px;
+}
+.settings .settings-profile-edits .settings-edit .form-group input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #e3e3e3;
+  outline: none;
+  border: none;
+}
+.settings .settings-profile-edits .settings-edit .form-editor-action-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4vh;
+}
+.settings
+  .settings-profile-edits
+  .settings-edit
+  .form-editor-action-btns
+  button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.settings
+  .settings-profile-edits
+  .settings-edit
+  .form-editor-action-btns
+  .cancel-btn {
+  background-color: #1877f2;
+  margin-right: 20px;
+}
+.settings
+  .settings-profile-edits
+  .settings-edit
+  .form-editor-action-btns
+  .confirm-btn {
+  background-color: red;
+}

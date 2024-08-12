@@ -1,0 +1,43 @@
+.lesson-detail {
+  padding: 20px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.lesson-detail .highlighted {
+  background-color: #1877f2;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px gray;
+}
+.lesson-detail li {
+  list-style: none;
+  cursor: pointer;
+  margin-bottom: 2vh;
+}
+.lesson-detail .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lesson-detail .buttons button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  min-width: 100px;
+  height: 30px;
+}
+
+.lesson-detail .buttons button[disabled] {
+  background-color: gray;
+}
+
+.lesson-detail .buttons .nextBtn {
+  background-color: #1877f2;
+}
+.lesson-detail .buttons .completeBtn {
+  background-color: red;
+}

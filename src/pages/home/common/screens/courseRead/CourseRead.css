@@ -1,0 +1,45 @@
+.course-read {
+  padding: 20px;
+}
+.course-read .back-btn {
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: #1877f2;
+  color: white;
+  font-size: 12px;
+}
+.course-read h2 {
+  margin-top: 3vh;
+}
+.course-read h3 {
+  font-size: 18px;
+  font-weight: 600;
+  /* text-decoration: underline #1877f2 2px; */
+}
+.course-read h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.course-read h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.course-read iframe {
+  height: 50vh;
+  width: 90%;
+  border-radius: 20px;
+}
+.course-read .lesson {
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px;
+  text-decoration: underline 0px;
+}
+.course-read .lesson:hover {
+  text-decoration: underline #1877f2 2px;
+}
+.course-read .lesson p {
+  margin: 0;
+}

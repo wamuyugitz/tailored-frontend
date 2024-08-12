@@ -1,0 +1,39 @@
+.details {
+  /* height: 30vh; */
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.details .details-header h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: gray;
+  margin: 0;
+}
+.details .details-header > p {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+.details p {
+  color: gray;
+}
+.details .details-outlays .details-outlay {
+  display: flex;
+  align-items: center;
+}
+.details .details-outlays .details-outlay > div {
+  margin-left: 10px;
+}
+
+.details .details-outlays .details-outlay > div h3 {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+.details .details-outlays .details-outlay > div p {
+  color: gray;
+  font-size: 14px;
+  margin: 0;
+}

@@ -1,0 +1,31 @@
+.notification-dashboard-card {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.notification-dashboard-card .icon-div {
+  background-color: #d7e2fb;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notification-dashboard-card .icon-div .icon {
+  font-size: 18px;
+}
+.notification-dashboard-card .notice {
+  margin-left: 10px;
+}
+.notification-dashboard-card .notice h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+.notification-dashboard-card .notice p {
+  font-size: 14px;
+  color: gray;
+  margin: 0;
+}

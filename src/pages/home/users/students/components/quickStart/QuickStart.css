@@ -1,0 +1,13 @@
+.quick-start {
+  margin-top: -2vh;
+}
+.quick-start h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: gray;
+}
+.quick-start .quick-start-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

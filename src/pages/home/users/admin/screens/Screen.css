@@ -1,0 +1,9 @@
+.screen {
+  width: 100vw;
+}
+
+@media (max-width: 992px) {
+  .screen {
+    margin-left: 14vw;
+  }
+}

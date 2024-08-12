@@ -1,0 +1,45 @@
+.info-panel {
+  height: 110vh;
+  background-color: #f8f9fe;
+}
+.info-panel.login {
+  animation: slideInLeft 1s forwards;
+}
+.info-panel.sign-up {
+  animation: slideInRight 1s forwards;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(50vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  from {
+    transform: translateX(-50vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.info-panel .container {
+  height: inherit;
+  width: 100%;
+}
+.info-panel .container img {
+  width: 200px;
+  margin-bottom: 2vh;
+}
+.info-panel .container p {
+  margin-bottom: 2vh;
+}
+.info-panel .container .learn-more-btn {
+  width: 400px;
+  height: 40px;
+  border: solid 1px gray;
+  background-color: transparent;
+  border-radius: 8px;
+}

@@ -1,0 +1,14 @@
+.assignment-card {
+  background-color: white;
+  border: solid 1px gray;
+  padding: 10px;
+}
+.assignment-card h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.assignment-card h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #78d4da;
+}

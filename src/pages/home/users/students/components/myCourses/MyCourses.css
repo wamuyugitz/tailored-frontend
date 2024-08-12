@@ -1,0 +1,12 @@
+.my-courses {
+  margin-bottom: 2vh;
+}
+.my-courses h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: gray;
+}
+.my-courses-div {
+  display: flex;
+  justify-content: space-around;
+}

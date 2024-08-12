@@ -1,0 +1,10 @@
+.calendarProfileDetails {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  margin-left: -20px;
+  padding: 10px;
+  height: 100%;
+  background-color: #f2f4fd;
+  border-radius: 10px;
+}

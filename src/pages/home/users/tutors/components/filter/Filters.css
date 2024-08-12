@@ -1,0 +1,26 @@
+.filters {
+  width: 70%;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+.filters > div:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.filters > div:nth-last-child(1) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.filters > div {
+  border: 1px solid rgba(128, 128, 128, 0.612);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.filters > div p {
+  margin: 0;
+}

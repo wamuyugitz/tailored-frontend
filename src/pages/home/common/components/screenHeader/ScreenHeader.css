@@ -1,0 +1,11 @@
+.screen .screen-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+}
+.screen .screen-header .add-user-btn {
+  border: none;
+  background-color: #ffffff;
+  width: 150px;
+  height: 40px;
+}

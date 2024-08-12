@@ -1,0 +1,11 @@
+.course-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .course-location {
+    flex-direction: column;
+  }
+}

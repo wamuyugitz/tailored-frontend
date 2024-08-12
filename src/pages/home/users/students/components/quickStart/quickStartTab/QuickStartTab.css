@@ -1,0 +1,33 @@
+.quick-start-tab {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+.quick-start-tab .icon-div {
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+.quick-start-tab .quick-start-tab-values {
+  margin-left: 15px;
+}
+
+.quick-start-tab .quick-start-tab-values h3 {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+.quick-start-tab .quick-start-tab-values p {
+  color: gray;
+  font-size: 14px;
+  margin: 0;
+}
