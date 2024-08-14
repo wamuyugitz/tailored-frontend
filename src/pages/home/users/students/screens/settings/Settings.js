@@ -25,7 +25,7 @@ export default function Settings() {
     const fetchUserDetails = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/users/${user.id}`
+          `http://localhost:5000/api/users/fetch/${user.id}`
         );
         const userDetails = response.data;
         console.log(userDetails);
@@ -59,7 +59,7 @@ export default function Settings() {
     e.preventDefault();
     try {
       const response = await axios.put(
-        `http://localhost:5000/api/users/${user.id}`,
+        `http://localhost:5000/api/users/update/${user.id}`,
         formData
       );
       dispatch(login(response.data)); // Update user in the Redux store
